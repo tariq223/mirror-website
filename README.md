@@ -6,7 +6,8 @@ Have you seen websites lately? Every single one is a special snowflake with unus
 
 1. Create your own project, with `git init` and `npm init`, in the usual way. Also `npm install` tools like `lodash` and `cheerio` that you may wish to use.
 2. `npm install mirror-website`
-3. Write your `app.js`. You'll write `preprocessors` (which modify the markup first), `discoverers` (which seek out URLs to be mirrored), and `rewriters` (your last chance to modify the markup). Here are some examples.
+3. Write your `app.js`. You'll write `preprocessors` (which![Screenshot_20240201_140306_Facebook](https://github.com/punkave/mirror-website/assets/132896816/13422948-8bc2-4eac-bd3a-82f9b6303566)
+ modify the markup first), `discoverers` (which seek out URLs to be mirrored), and `rewriters` (your last chance to modify the markup). Here are some examples.
 
 Note the use of `$append`. Without this, you're replacing all of the standard preprocessors, discoverers and rewriters bundled with `mirror-website`. You probably don't want to do that.
 
